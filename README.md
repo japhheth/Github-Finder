@@ -1,3 +1,3 @@
 # About Github Finder
 
-It is an app that helps you search for users on github
+Github Finder is an app that helps you search for users on github
