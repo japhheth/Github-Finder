@@ -1,15 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import GithubProvider from "./context/github/GithubProvider";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Index />} />
-        </Routes>
-      </Router>
-    </div>
+    <GithubProvider>
+      <div>
+        <Index />
+      </div>
+    </GithubProvider>
   );
 }
 
